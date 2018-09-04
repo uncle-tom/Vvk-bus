@@ -28,7 +28,7 @@
 				<div class="col-md-6">
 					<div class="mobile-show">
 						<div class="bus__title mb-5">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/bus-title-before.png" alt="" class="bus__title-icon">
+							<img src="/wp-content/uploads/2018/09/bus-title-before.png" alt="" class="bus__title-icon">
 							<?php the_title(); ?>	
 						</div>
 					</div>
@@ -45,7 +45,7 @@
 					<div class="bus__info mb-5">
 						<div class="pc-show">
 							<div class="bus__title mb-5">
-								<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/bus-title-before.png" alt="" class="bus__title-icon">
+								<img src="/wp-content/uploads/2018/09/bus-title-before.png" alt="" class="bus__title-icon">
 								<?php the_title(); ?>	
 							</div>
 						</div>

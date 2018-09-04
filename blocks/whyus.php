@@ -15,7 +15,7 @@
 					<!-- begin whyus__item 1 -->
 					<div class="whyus__item">
 						<div class="whyus__item__icon">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/whyus-icon1.png" alt="">
+							<img src="/wp-content/uploads/2018/09/whyus-icon1.png" alt="">
 						</div>
 						<div class="whyus__item__text">
 							<div class="whyus__firstline">Опыт нашей компании</div>
@@ -28,7 +28,7 @@
 					<!-- begin whyus__item 2 -->
 					<div class="whyus__item">
 						<div class="whyus__item__icon">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/whyus-icon2.png" alt="">
+							<img src="/wp-content/uploads/2018/09/whyus-icon2.png" alt="">
 						</div>
 						<div class="whyus__item__text">
 							<div class="whyus__firstline">Операторы всегда помогут</div>
@@ -41,7 +41,7 @@
 					<!-- begin whyus__item 3 -->
 					<div class="whyus__item">
 						<div class="whyus__item__icon">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/whyus-icon3.png" alt="">
+							<img src="/wp-content/uploads/2018/09/whyus-icon3.png" alt="">
 						</div>
 						<div class="whyus__item__text">
 							<div class="whyus__firstline">Опыт наших водителей</div>
@@ -54,7 +54,7 @@
 					<!-- begin whyus__item 4 -->
 					<div class="whyus__item">
 						<div class="whyus__item__icon">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/whyus-icon4.png" alt="">
+							<img src="/wp-content/uploads/2018/09/whyus-icon4.png" alt="">
 						</div>
 						<div class="whyus__item__text">
 							<div class="whyus__firstline">Заказывай и покупай билет</div>

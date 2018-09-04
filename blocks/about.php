@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-5">
-				<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/medal.png" alt="">
+				<img src="/wp-content/uploads/2018/09/medal.png" alt="">
 			</div>
 			<div class="col-md-7 about__infoblock">
 				<div class="about__line1"></div>

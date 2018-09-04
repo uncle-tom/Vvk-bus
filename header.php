@@ -46,7 +46,7 @@
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="logo">
 								<a href="<?php echo get_home_url(); ?>">
-									<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/vvk-bus-logo.png" alt="Logo">
+									<img src="/wp-content/uploads/2018/09/vvk-bus-logo.png" alt="Logo">
 								</a>
 							</div>
 							<div class="menu">
@@ -71,7 +71,7 @@
 					<div class="col-md-12">
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="logo">
-								<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/vvk-bus-logo.png" alt="Logo">
+								<img src="/wp-content/uploads/2018/09/vvk-bus-logo.png" alt="Logo">
 							</div>
 
 							<div class="menu">

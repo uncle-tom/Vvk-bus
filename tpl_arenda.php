@@ -15,10 +15,10 @@ Template Name: Аренда
 			<div class="row">
 				<div class="col-md-6">
 					<div class="arenda__photos mb-5">
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/DPP_0018.jpg" alt="">
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/DPP_0018.jpg" alt="">
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/DPP_0018.jpg" alt="">
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/DPP_0018.jpg" alt="">
+						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
+						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
+						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
+						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
 					</div>
 					<div class="buttons text-center">
 						<div class="my-btn btn-blue">аренда автобуса</div>
@@ -76,7 +76,7 @@ Template Name: Аренда
 			</div>
 		</div>
 		<div class="bus-icon">
-			<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/bus-icon.png" alt="">
+			<img src="/wp-content/uploads/2018/09/bus-icon.png" alt="">
 		</div>
 		<div class="arenda__komfort-line1"></div>
 		<div class="arenda__komfort-line2"></div>
@@ -93,7 +93,7 @@ Template Name: Аренда
 				<div class="row arenda__block">
 					<div class="col-md-4">
 						<div class="arenda__zakaz-img">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/DPP_0018.jpg" alt="">
+							<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
 							<div class="arenda__zakaz-bg"></div>
 						</div>
 					</div>

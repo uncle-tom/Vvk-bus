@@ -24,7 +24,7 @@ Template Name: О нас
 				</div>
 			</div>
 			<div class="offset-md-1 col-md-4">
-				<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/wecool.jpg" alt="" class="mb-5 width100">
+				<img src="/uploads/2018/09/wecool.jpg" alt="" class="mb-5 width100">
 				<div class="d-flex justify-content-center">
 					<div class="my-btn btn-blue">задать вопрос в viber</div>
 				</div>
@@ -51,7 +51,7 @@ Template Name: О нас
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/gramata.png" alt="">
+					<img src="/wp-content/uploads/2018/09/gramata.png" alt="">
 				</div>
 				<div class="col-md-6">
 					<div class="d-flex justify-content-center mb-4">
@@ -84,7 +84,7 @@ Template Name: О нас
 		<div class="row mb-5">
 			<div class="col-md-4">
 				<div class="member">
-					<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/member1.png" alt="">
+					<img src="/wp-content/uploads/2018/09/member1.png" alt="">
 					<div class="member__info member__info-left">
 						<div class="member__name">Богдан</div>
 						<div class="member__who">водитель автобуса</div>
@@ -93,7 +93,7 @@ Template Name: О нас
 			</div>
 			<div class="col-md-4">
 				<div class="member">
-					<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/member2.png" alt="">
+					<img src="/wp-content/uploads/2018/09/member2.png" alt="">
 					<div class="member__info">
 						<div class="member__name">Павел</div>
 						<div class="member__who">водитель автобуса</div>
@@ -102,7 +102,7 @@ Template Name: О нас
 			</div>
 			<div class="col-md-4">
 				<div class="member">
-					<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/08/member3.png" alt="">
+					<img src="/wp-content/uploads/2018/09/member3.png" alt="">
 					<div class="member__info member__info-right">
 						<div class="member__name">Анастасия</div>
 						<div class="member__who">менеджер</div>
