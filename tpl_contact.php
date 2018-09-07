@@ -40,7 +40,7 @@ Template Name: Контакты
 					<br>Карта проезда:
 				</div>
 				<div class="map">
-					
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada8cab50e96195dcbcb786ec324ae4fd12800c9d7f7e352ffe0eb8a70f3fc407&amp;width=100%&amp;height=420&amp;lang=ru_UA&amp;scroll=true"></script>
 				</div>
 			</div>
 		</div>
