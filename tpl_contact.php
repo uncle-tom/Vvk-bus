@@ -40,7 +40,7 @@ Template Name: Контакты
 					<br>Карта проезда:
 				</div>
 				<div class="map">
-					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada8cab50e96195dcbcb786ec324ae4fd12800c9d7f7e352ffe0eb8a70f3fc407&amp;width=100%&amp;height=420&amp;lang=ru_UA&amp;scroll=true"></script>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1815.8358263788562!2d36.425975737790885!3d49.93672306332825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270c156c9fd3b3%3A0x9c3b93a4f092e4fe!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0L_RgNC-0YHQvy4sIDMwMywg0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA2MTAwMA!5e0!3m2!1sru!2sus!4v1536333658609" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
