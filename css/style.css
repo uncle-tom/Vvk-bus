@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -9482,6 +9483,17 @@ i {
       .hero__breadcrumbs a:hover {
         text-decoration: none; }
 
+.contact ul {
+  margin: 0px;
+  padding: 0px; }
+  .contact ul li {
+    margin-bottom: 15px; }
+    .contact ul li:last-child {
+      margin-bottom: 0px; }
+    .contact ul li ::before {
+      content: "■ ";
+      color: #0089c8; }
+
 .wecool h2 {
   position: relative;
   font-family: sans-serif;
@@ -10196,6 +10208,9 @@ i {
       left: 0px; }
     .weteam .member__info-right {
       right: 0px; }
+
+  .contact__sidebar {
+    margin-bottom: 3rem; }
 
   .footer__section {
     margin-bottom: 50px; }
