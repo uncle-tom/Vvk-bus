@@ -8999,6 +8999,9 @@ a:hover {
 .width100 {
   width: 100%; }
 
+.box {
+  background-color: #ffffff; }
+
 .topheader {
   height: 30px;
   background-color: #7ecee8;
@@ -10033,6 +10036,18 @@ i {
     top: 30px;
     left: 10px;
     background-color: #0089c8; }
+
+.single__title {
+  color: #0089c8;
+  font-size: 30px;
+  text-transform: uppercase; }
+.single__thumb {
+  width: 100%;
+  height: 300px; }
+  .single__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .footer {
   position: relative;
