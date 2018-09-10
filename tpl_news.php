@@ -43,12 +43,12 @@ Template Name: Новости
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<?php
-					$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'offset'=> 1 ) );
-					if( $custom_query_news->have_posts() ){
-						while( $custom_query_news->have_posts() ){ $custom_query_news->the_post();
-				?>
+			<?php
+				$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'offset'=> 1 ) );
+				if( $custom_query_news->have_posts() ){
+					while( $custom_query_news->have_posts() ){ $custom_query_news->the_post();
+			?>
+				<div class="col-md-6">
 					<div class="news__item">
 						<div class="news__img">
 							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title(); ?>">
@@ -62,13 +62,13 @@ Template Name: Новости
 							</div>
 						</div>
 					</div>
-				<?php
-					}
-						wp_reset_postdata(); // сбрасываем переменную $post
-					} 
-					else echo 'Записей нет2.';
-				?>
-			</div>
+				</div>
+			<?php
+				}
+					wp_reset_postdata(); // сбрасываем переменную $post
+				} 
+				else echo 'Записей нет2.';
+			?>
 		</div>
 	</div>
 
