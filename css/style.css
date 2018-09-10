@@ -9689,6 +9689,9 @@ i {
   .weteam .buttons .my-btn:nth-child(2) {
     margin: 0px 1.5rem; }
 
+.news__item {
+  background-color: #ffffff; }
+
 .buses .bus {
   position: relative;
   padding: 60px 0px;
