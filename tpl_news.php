@@ -20,6 +20,7 @@ Template Name: Новости
 					<div class="col-md-8">
 						<div class="topnews__photo news__img">
 							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title(); ?>">
+							<div class="news__img-absolute"></div>
 						</div>
 					</div>
 					<div class="col-md-4 topnews__border d-flex align-items-center justify-content-center">
@@ -52,6 +53,7 @@ Template Name: Новости
 					<div class="news__item">
 						<div class="news__img">
 							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title(); ?>">
+							<div class="news__img-absolute"></div>
 						</div>
 						<div class="news__info py-5">
 							<div class="news__category">
