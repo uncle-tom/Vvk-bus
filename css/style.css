@@ -10322,6 +10322,11 @@ i {
       .buses .bus__images-line1, .buses .bus__images-line2 {
         display: none; }
 
+  .wecool .dir {
+    width: 100%; }
+    .wecool .dir__absolute {
+      display: none; }
+
   .wemedal h2 {
     text-align: center; }
     .wemedal h2 span {
