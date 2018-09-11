@@ -18,9 +18,42 @@ Template Name: О нас
 					<div class="heading">только опытные водители</div>
 				</h2>
 				<div class="wecool__text py-3">
-					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-						<?php the_content(); ?>
-					<?php endwhile; endif; ?>
+					<div>
+						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+							<?php the_content(); ?>
+						<?php endwhile; endif; ?>
+					</div>
+					<div class="dir">
+						<div class="dir__top">
+							<div class="dir__title">
+								<span>Направления</span>
+							</div>	
+						</div>
+						<div class="relative">
+							<div class="dir__list">
+								<?php 
+						    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
+						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+						    	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						    <?php endwhile; endif; ?>
+							</div>
+							<div class="dir__bottom">
+								<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/09/bus-icon.png" alt="">
+							</div>
+							<div class="dir__absolute">
+								<div class="dir__absolute-list">
+									<?php 
+							    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
+							    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+							    	<li><a href="<?php the_permalink(); ?>"><i>→</i><div class="my-btn btn-blue">заказать</div></a></li>
+							    <?php endwhile; endif; ?>
+						    </div>
+						    <div class="bench">
+						    	<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/09/bench-icon.png" alt="">
+						    </div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="offset-md-1 col-md-4">

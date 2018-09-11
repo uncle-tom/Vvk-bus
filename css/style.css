@@ -9545,6 +9545,77 @@ i {
 .wecool:hover h2:after {
   width: 20%;
   transition: width 0.5s; }
+.wecool .dir {
+  width: 60%;
+  box-shadow: -2.351px 3.236px 6.51px 0.49px rgba(0, 0, 0, 0.27); }
+  .wecool .dir__top {
+    color: #ffffff;
+    background-color: #0089c8;
+    text-align: center;
+    padding: 10px 5px; }
+    .wecool .dir__top span {
+      position: relative;
+      font-size: 25px;
+      padding: 0px 10px; }
+    .wecool .dir__top span:before, .wecool .dir__top span:after {
+      content: '';
+      width: 55px;
+      height: 1px;
+      position: absolute;
+      top: -webkit-calc(50% + 1px);
+      top: 50%;
+      border-bottom: 1px solid #ffffff; }
+    .wecool .dir__top span:before {
+      right: 100%; }
+    .wecool .dir__top span:after {
+      left: 100%; }
+  .wecool .dir__list {
+    background-color: #f0f8fc;
+    padding: 15px 0px; }
+    .wecool .dir__list li {
+      padding: 15px 10px; }
+      .wecool .dir__list li:nth-child(even) {
+        background-color: #f0f8fc; }
+      .wecool .dir__list li:nth-child(odd) {
+        background-color: #bee1f1; }
+      .wecool .dir__list li a {
+        color: #000000;
+        font-size: 19px; }
+  .wecool .dir__bottom {
+    background-color: #f0f8fc;
+    text-align: right; }
+  .wecool .dir__absolute {
+    width: calc(50% + 30px);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: calc(-50% - 30px);
+    box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27), 4.649px 2.236px 7.51px 0.49px rgba(0, 0, 0, 0.27); }
+    .wecool .dir__absolute-list {
+      padding: 15px 20px; }
+    .wecool .dir__absolute li {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0px; }
+      .wecool .dir__absolute li i {
+        color: #0089c8;
+        font-size: 19px;
+        padding-right: 20px; }
+    .wecool .dir__absolute .my-btn {
+      padding: 5px 30px; }
+      .wecool .dir__absolute .my-btn:before1 {
+        content: '→';
+        position: absolute;
+        left: 0px;
+        color: #0089c8; }
+    .wecool .dir__absolute .bench {
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      background-color: #d9edf7;
+      text-align: right;
+      box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27);
+      padding: 10px; }
 
 .wemedal__bg {
   position: relative;
