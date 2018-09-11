@@ -22,7 +22,7 @@
 							<div class="box__title mb-3">Популярные направления</div>
 							<div class="mb-3">Забронируйте билет прямо сейчас!</div>
 							<?php 
-					    $custom_query = new WP_Query( array( 'post_type' => 'directions' ) );
+					    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'posts_per_page' => 5 ) );
 					    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 					    	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 					    <?php endwhile; endif; ?>
@@ -31,7 +31,7 @@
 				    	Наши новости
 				    </div>
 				    <?php 
-					  $custom_query = new WP_Query( array( 'post_type' => 'post' ) );
+					  $custom_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 5 ) );
 					  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 					  	<div class="news__item">
 					  		<div class="news__img">
