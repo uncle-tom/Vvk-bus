@@ -14,7 +14,7 @@ Template Name: Маршруты
 </div>
 <!-- end topdirection -->
 <!-- begin alldirections -->
-<div class="alldirections">
+<div class="alldirections py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
