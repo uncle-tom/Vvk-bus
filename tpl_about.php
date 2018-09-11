@@ -38,7 +38,7 @@ Template Name: О нас
 						    <?php endwhile; endif; ?>
 							</div>
 							<div class="dir__bottom">
-								<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/09/bus-icon.png" alt="">
+								<img src="/wp-content/uploads/2018/09/bus-icon-1.png" alt="">
 							</div>
 							<div class="dir__absolute">
 								<div class="dir__absolute-list">
@@ -49,7 +49,7 @@ Template Name: О нас
 							    <?php endwhile; endif; ?>
 						    </div>
 						    <div class="bench">
-						    	<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/09/bench-icon.png" alt="">
+						    	<img src="/wp-content/uploads/2018/09/bench-icon.png" alt="">
 						    </div>
 							</div>
 						</div>
