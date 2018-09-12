@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- begin hero -->
-	<div class="hero" style="background: url(<?php echo get_the_post_thumbnail_url(); ?>); background-size: cover;">
-		<div class="hero__absolute"></div>
+	<div class="hero" style="background: url(/wp-content/uploads/2018/09/back-header-1.jpg); background-size: cover;">
+		<!-- <div class="hero__absolute"></div> -->
 		<div class="hero__title">
 			<span>Наши автобусы</span>
 		</div>

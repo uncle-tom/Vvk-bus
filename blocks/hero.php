@@ -1,5 +1,5 @@
 <div class="hero" style="background: url(<?php echo get_the_post_thumbnail_url(); ?>); background-size: cover;">
-	<div class="hero__absolute"></div>
+	<!-- <div class="hero__absolute"></div> -->
 	<div class="hero__title">
 		<span><?php the_title(); ?></span>
 	</div>
