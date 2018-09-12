@@ -10291,7 +10291,7 @@ i {
 
 @media (max-width: 576px) {
   #content {
-    padding-top: 65px; }
+    padding-top: 55px; }
 
   .pc-show {
     display: none; }
@@ -10308,7 +10308,7 @@ i {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    height: 65px;
+    height: 55px;
     position: fixed;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px #9E9E9E;
