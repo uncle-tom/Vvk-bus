@@ -9024,14 +9024,19 @@ a:hover {
   position: absolute;
   background-color: #ffffff;
   z-index: 4;
+  -webkit-transition: all 0ms 200ms;
+  -o-transition: all 0ms 200ms;
   transition: all 0ms 200ms; }
   .mainheader__fixed {
     position: fixed;
     top: 0;
     border-bottom: 0px;
     background-color: rgba(255, 255, 255, 0.94);
+    -webkit-box-shadow: 1px 1px 3px #9E9E9E;
     box-shadow: 1px 1px 3px #9E9E9E;
     z-index: 4;
+    -webkit-transition: all 0ms 300ms;
+    -o-transition: all 0ms 300ms;
     transition: all 0ms 300ms; }
 
 header .mobilemenu {
@@ -9143,7 +9148,11 @@ i {
       height: 185px;
       position: relative;
       margin-bottom: 20px;
-      transition: background-size 0.5s; }
+      -webkit-transition: -webkit-background-size 0.5s;
+      transition: -webkit-background-size 0.5s;
+      -o-transition: background-size 0.5s;
+      transition: background-size 0.5s;
+      transition: background-size 0.5s, -webkit-background-size 0.5s; }
     .directions .direction__title {
       width: 100%;
       position: absolute;
@@ -9195,8 +9204,13 @@ i {
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg); }
     .directions .direction:hover .direction__photo {
+      -webkit-background-size: 110% 110% !important;
       background-size: 110% !important;
-      transition: background-size 0.5s; }
+      -webkit-transition: -webkit-background-size 0.5s;
+      transition: -webkit-background-size 0.5s;
+      -o-transition: background-size 0.5s;
+      transition: background-size 0.5s;
+      transition: background-size 0.5s, -webkit-background-size 0.5s; }
   .directions__line1 {
     height: 3px;
     width: 375px;
@@ -9272,6 +9286,8 @@ i {
   left: 0;
   border-left: 3px solid #0089c8;
   border-top: 3px solid #0089c8;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s; }
 .whyus h2:after {
   content: '';
@@ -9282,6 +9298,8 @@ i {
   right: 0;
   border-right: 3px solid #0089c8;
   border-bottom: 3px solid #0089c8;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
   transition: height 0.5s; }
 .whyus__blocks {
   position: relative;
@@ -9350,9 +9368,13 @@ i {
     left: 100%; }
 .whyus:hover h2:before {
   width: 0%;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s; }
 .whyus:hover h2:after {
   height: 100%;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
   transition: height 0.5s; }
 
 .about {
@@ -9529,6 +9551,8 @@ i {
     right: 0;
     border-left: 3px solid #0089c8;
     border-bottom: 3px solid #0089c8;
+    -webkit-transition: height 0.5s;
+    -o-transition: height 0.5s;
     transition: height 0.5s; }
   .wecool h2:after {
     content: '';
@@ -9539,6 +9563,8 @@ i {
     right: 0;
     border-right: 3px solid #0089c8;
     border-top: 3px solid #0089c8;
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
     transition: width 0.5s; }
   .wecool h2 span {
     display: inline-block;
@@ -9556,12 +9582,17 @@ i {
     font-size: 13px; }
 .wecool:hover h2:before {
   height: 0%;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
   transition: height 0.5s; }
 .wecool:hover h2:after {
   width: 20%;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s; }
 .wecool .dir {
   width: 60%;
+  -webkit-box-shadow: -2.351px 3.236px 6.51px 0.49px rgba(0, 0, 0, 0.27);
   box-shadow: -2.351px 3.236px 6.51px 0.49px rgba(0, 0, 0, 0.27); }
   .wecool .dir__top {
     color: #ffffff;
@@ -9588,7 +9619,8 @@ i {
     background-color: #f0f8fc;
     padding: 15px 0px; }
     .wecool .dir__list li {
-      padding: 15px 10px; }
+      padding: 15px 10px;
+      text-align: center; }
       .wecool .dir__list li:nth-child(even) {
         background-color: #f0f8fc; }
       .wecool .dir__list li:nth-child(odd) {
@@ -9600,16 +9632,25 @@ i {
     background-color: #f0f8fc;
     text-align: right; }
   .wecool .dir__absolute {
+    width: -webkit-calc(50% + 30px);
     width: calc(50% + 30px);
     height: 100%;
     position: absolute;
     top: 0px;
+    right: -webkit-calc(-50% - 30px);
     right: calc(-50% - 30px);
+    -webkit-box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27), 4.649px 2.236px 7.51px 0.49px rgba(0, 0, 0, 0.27);
     box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27), 4.649px 2.236px 7.51px 0.49px rgba(0, 0, 0, 0.27); }
     .wecool .dir__absolute-list {
       padding: 15px 20px; }
     .wecool .dir__absolute li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
       justify-content: center;
       padding: 10px 0px; }
       .wecool .dir__absolute li i {
@@ -9629,6 +9670,7 @@ i {
       bottom: 0px;
       background-color: #d9edf7;
       text-align: right;
+      -webkit-box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27);
       box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27);
       padding: 10px; }
 
@@ -9693,6 +9735,8 @@ i {
     right: 0;
     border-left: 1px solid #0089c8;
     border-bottom: 1px solid #0089c8;
+    -webkit-transition: height 0.7s;
+    -o-transition: height 0.7s;
     transition: height 0.7s; }
   .wemedal__title:after {
     content: '';
@@ -9703,14 +9747,20 @@ i {
     right: 0;
     border-right: 1px solid #0089c8;
     border-top: 1px solid #0089c8;
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
     transition: width 0.5s; }
 .wemedal__text {
   font-size: 15px; }
 .wemedal:hover .wemedal__title:before {
   height: 0%;
+  -webkit-transition: height 0.7s;
+  -o-transition: height 0.7s;
   transition: height 0.7s; }
 .wemedal:hover .wemedal__title:after {
   width: 60%;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s; }
 
 .weteam h2 {
@@ -9756,9 +9806,13 @@ i {
     padding: 2px 20px 20px 20px; }
     .weteam .member__info-right {
       right: -40px;
+      -webkit-transition: right 0.5s;
+      -o-transition: right 0.5s;
       transition: right 0.5s; }
     .weteam .member__info-left {
       left: -40px;
+      -webkit-transition: left 0.5s;
+      -o-transition: left 0.5s;
       transition: left 0.5s; }
   .weteam .member__name {
     font-size: 32px; }
@@ -9766,9 +9820,13 @@ i {
     font-size: 19px; }
   .weteam .member:hover .member__info-left {
     left: 0px;
+    -webkit-transition: left 0.5s;
+    -o-transition: left 0.5s;
     transition: left 0.5s; }
   .weteam .member:hover .member__info-right {
     right: 0px;
+    -webkit-transition: right 0.5s;
+    -o-transition: right 0.5s;
     transition: right 0.5s; }
 .weteam .buttons {
   display: -webkit-box;
@@ -9786,6 +9844,8 @@ i {
   background-color: #ffffff; }
   .news__item:hover .news__img-absolute {
     background-color: rgba(0, 0, 0, 0.35);
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
     transition: background-color 0.5s; }
 .news__img {
   width: 100%;
@@ -9794,6 +9854,7 @@ i {
   .news__img img {
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover; }
   .news__img-absolute {
     width: 100%;
@@ -9802,6 +9863,8 @@ i {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
     transition: background-color 0.5s; }
 .news__title {
   color: #0089c8;
@@ -9824,6 +9887,8 @@ i {
   border-bottom: 3px solid #047afb; }
 .topnews:hover .news__img-absolute {
   background-color: rgba(0, 0, 0, 0.35);
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
 
 .alldirections {
@@ -10163,8 +10228,17 @@ i {
       transform: rotate(-6deg); }
   .arenda__zakaz-img {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
     align-items: flex-end; }
     .arenda__zakaz-img img {
       width: 90%;
@@ -10188,6 +10262,7 @@ i {
   .single__thumb img {
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover; }
 
 .footer {
