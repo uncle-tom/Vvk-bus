@@ -73,13 +73,15 @@
 							<div class="logo">
 								<img src="/wp-content/uploads/2018/09/vvk-bus-logo.png" alt="Logo">
 							</div>
-
-							<div class="menu">
-								<?php 
-									wp_nav_menu( array(
-										'menu'            => 'HeaderMenu', 
-									))
-								?>
+							<div class="toogle-menu"></div>
+							<div class="slide-menu">
+								<div class="menu">
+									<?php 
+										wp_nav_menu( array(
+											'menu'            => 'HeaderMenu', 
+										))
+									?>
+								</div>
 							</div>
 						</div>
 					</div>
