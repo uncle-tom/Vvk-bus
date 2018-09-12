@@ -75,7 +75,7 @@
 							</div>
 							<div class="toogle-menu"></div>
 							<div class="slide-menu">
-								<div class="logo mb-4">
+								<div class="logo text-center mb-4">
 									<img src="/wp-content/uploads/2018/09/vvk-bus-logo.png" alt="Logo">
 								</div>
 								<div class="menu">

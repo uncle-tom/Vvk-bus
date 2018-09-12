@@ -10327,7 +10327,7 @@ i {
         transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); }
   .mobilemenu .slide-menu {
     width: 60%;
-    height: auto;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0px;
@@ -10336,6 +10336,12 @@ i {
     transition: transform 300ms ease;
     z-index: 3;
     padding: 20px; }
+    .mobilemenu .slide-menu li {
+      float: none;
+      margin-bottom: 15px;
+      margin-right: 0px; }
+      .mobilemenu .slide-menu li:last-child {
+        margin-bottom: 0px; }
   .mobilemenu .slide-menu_active {
     transform: translateX(0%);
     transition: transform 300ms ease; }
