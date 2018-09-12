@@ -9006,6 +9006,9 @@ a:hover {
     font-weight: 600;
     text-transform: uppercase; }
 
+.entry-section {
+  padding-top: 55px; }
+
 .topheader {
   height: 30px;
   background-color: #7ecee8;
