@@ -46,7 +46,7 @@
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="logo">
 								<a href="<?php echo get_home_url(); ?>">
-									<img src="/wp-content/uploads/2018/09/logo.jpg" alt="Logo">
+									<img src="/wp-content/uploads/2018/09/komplogo.png" alt="Logo">
 								</a>
 							</div>
 							<div class="menu">
