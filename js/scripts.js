@@ -13,3 +13,14 @@ $(window).scroll(function(){
 		$('.mainheader').removeClass('mainheader__fixed')
 	}
 })
+
+// if ($(document).width() > 960) {
+// 	$(window).scroll(function(){
+// 		var h_scroll = $(this).scrollTop();
+// 		if (h_scroll > 30) {
+// 			$('.mobilemenu').addClass('mainheader__fixed')
+// 		} else {
+// 			$('.mainheader').removeClass('mainheader__fixed')
+// 		}
+// 	})
+// }
