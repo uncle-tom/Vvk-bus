@@ -10311,6 +10311,7 @@ i {
     height: 65px;
     position: fixed;
     background-color: #ffffff;
+    box-shadow: 1px 1px 3px #9E9E9E;
     z-index: 4; }
 
   .mobilemenu .toogle-menu {
