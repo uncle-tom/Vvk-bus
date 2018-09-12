@@ -9028,7 +9028,8 @@ a:hover {
     position: fixed;
     top: 0;
     border-bottom: 0px;
-    box-shadow: 1px 1px 0px #4f4f4f;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 1px 1px 3px #9E9E9E;
     z-index: 4; }
 
 header .mobilemenu {
