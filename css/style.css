@@ -10356,7 +10356,7 @@ i {
     left: 0px;
     background-color: rgba(126, 206, 232, 0.97);
     box-shadow: 1px 10px 15px 4px rgba(0, 0, 0, 0.69);
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     transition: transform 300ms ease;
     z-index: 3;
     padding: 20px; }
