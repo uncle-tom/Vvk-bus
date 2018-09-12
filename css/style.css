@@ -10358,6 +10358,9 @@ i {
     transform: translateX(0%);
     transition: transform 300ms ease; }
 
+  .entry-section {
+    padding-top: 0px; }
+
   h1 span:after, .hero__title span:after {
     display: none; }
   h1 span:before, .hero__title span:before {
