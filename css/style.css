@@ -9023,7 +9023,8 @@ a:hover {
   height: 55px;
   position: absolute;
   background-color: #ffffff;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  z-index: 4; }
   .mainheader__fixed {
     position: fixed;
     top: 0;
