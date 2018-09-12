@@ -10354,7 +10354,8 @@ i {
     position: fixed;
     top: 0;
     left: 0px;
-    background-color: rgba(126, 206, 232, 0.95);
+    background-color: rgba(126, 206, 232, 0.97);
+    box-shadow: 1px 10px 15px 4px rgba(0, 0, 0, 0.69);
     transform: translateX(-100%);
     transition: transform 300ms ease;
     z-index: 3;
