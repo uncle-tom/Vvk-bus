@@ -71,12 +71,12 @@
 					<div class="col-md-12">
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="logo">
-								<img src="/wp-content/uploads/2018/09/logo.jpg" alt="Logo">
+								<img src="/wp-content/uploads/2018/09/komplogo.png" alt="Logo">
 							</div>
 							<div class="toogle-menu"></div>
 							<div class="slide-menu">
 								<div class="logo text-center mb-4">
-									<img src="/wp-content/uploads/2018/09/logomob.png" alt="Logo">
+									<img src="/wp-content/uploads/2018/09/komplogo.png" alt="Logo">
 								</div>
 								<div class="menu">
 									<?php 
