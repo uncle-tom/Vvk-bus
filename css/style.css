@@ -9004,9 +9004,12 @@ a:hover {
   -webkit-box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67);
   box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67); }
   .box__title {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase; }
+    color: #0089c8;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #0089c8; }
 
 #content {
   padding-top: 55px; }
