@@ -212,3 +212,14 @@ add_action("admin_menu", "add_theme_menu_item");
 function theme_settings_page() {
     include 'form-file.php';
 }
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(/wp-content/uploads/2018/09/komplogo.png);
+        width:100%;
+        height:55px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
