@@ -45,7 +45,7 @@ Template Name: О нас
 									<?php 
 							    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
 							    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-							    	<li><a href="<?php the_permalink(); ?>"><i>→</i><div class="my-btn btn-blue">заказать</div></a></li>
+							    	<li><a href="<?php the_permalink(); ?>"><i>→</i><div class="my-btn btn-blue"><span>заказать</span></div></a></li>
 							    <?php endwhile; endif; ?>
 						    </div>
 						    <div class="bench">
@@ -59,7 +59,7 @@ Template Name: О нас
 			<div class="offset-md-1 col-md-4">
 				<img src="/wp-content/uploads/2018/09/wecool.jpg" alt="" class="mb-5 width100">
 				<div class="d-flex justify-content-center">
-					<div class="my-btn btn-blue">задать вопрос в viber</div>
+					<div class="my-btn btn-blue"><span>задать вопрос в viber</span></div>
 				</div>
 			</div>
 		</div>
@@ -146,9 +146,9 @@ Template Name: О нас
 		<div class="row">
 			<div class="col-md-12">
 				<div class="buttons">
-					<div class="my-btn btn-blue">обратный звонок</div>
-					<div class="my-btn btn-white">заказать билет</div>
-					<div class="my-btn btn-blue">написать в viber</div>	
+					<div class="my-btn btn-blue"><span>обратный звонок</span></div>
+					<div class="my-btn btn-white"><span>заказать билет</span></div>
+					<div class="my-btn btn-blue"><span>написать в viber</span></div>	
 				</div>
 			</div>
 		</div>

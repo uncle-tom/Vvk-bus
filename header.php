@@ -77,10 +77,8 @@
 							</div>
 							<div class="toogle-menu"></div>
 							<div class="slide-menu">
-								<div class="logo text-center mb-4">
-									<a href="<?php echo get_home_url(); ?>">
-										<img src="/wp-content/uploads/2018/09/komplogo.png" alt="Logo">
-									</a>
+								<div class="text-center mb-4">
+									<div class="btn btn-primary">написать в viber</div>
 								</div>
 								<div class="menu">
 									<?php 
