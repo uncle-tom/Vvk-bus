@@ -9,7 +9,7 @@ Template Name: Маршрут
 	<?php get_template_part( 'blocks/hero', 'default' ); ?>
 <!-- end hero -->
 
-<div class="container py-5">
+<div class="container-fluid py-5">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="route">
