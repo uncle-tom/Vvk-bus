@@ -9272,6 +9272,9 @@ i {
     -ms-transform: rotate(-62deg);
     transform: rotate(-62deg); }
 
+.route {
+  width: 100%; }
+
 .whyus h2 {
   position: relative;
   font-size: 44px;
