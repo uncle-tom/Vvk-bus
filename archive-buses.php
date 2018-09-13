@@ -60,8 +60,8 @@
 						</div>						
 					</div>
 					<div class="buttons">
-						<div class="my-btn btn-blue">аренда автобуса</div>
-						<div class="my-btn btn-white">заказать билет</div>
+						<div class="my-btn btn-blue"><span>аренда автобуса</span></div>
+						<div class="my-btn btn-white"><span>заказать билет</span></div>
 					</div>
 				</div>
 			</div>

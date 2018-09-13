@@ -67,9 +67,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="buttons">
-						<div class="my-btn btn-blue">обратный звонок</div>
-						<div class="my-btn btn-white">заказать билет</div>
-						<div class="my-btn btn-blue">написать в viber</div>	
+						<div class="my-btn btn-blue"><span>обратный звонок</span></div>
+						<div class="my-btn btn-white"><span>заказать билет</span></div>
+						<div class="my-btn btn-blue"><span>написать в viber</span></div>	
 					</div>
 				</div>
 			</div>

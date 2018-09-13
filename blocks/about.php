@@ -29,7 +29,7 @@
       		<div class="">Мы работаем как с группами, так и с каждым клиентом лично.</div>
       		<div class="text-left font-weight-bold pt-4 mb-5">О качестве наших услуг говорят наши награды</div>
       		<div class="my-btn btn-blue">
-      			подробнее
+      			<span>подробнее</span>
       		</div>
 				</div>
 			</div>

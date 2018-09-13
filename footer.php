@@ -13,7 +13,7 @@
 						    	<a href="<?php get_permalink(); ?>" class="footer__direction"><?php the_title(); ?></a>
 						    <?php endwhile; endif; ?>
 					    </div>
-					    <div class="my-btn btn-transparent">Заказать</div>
+					    <div class="my-btn btn-transparent"><span>Заказать</span></div>
 				    <!-- end footer col1 -->
     			</div>
     			<div class="col-md-3 footer__section">
