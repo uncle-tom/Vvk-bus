@@ -10304,7 +10304,8 @@ i {
     .footer__directions a {
       color: #ffffff; }
   .footer .menu ul li {
-    float: none; }
+    float: none;
+    text-align: center; }
     .footer .menu ul li a {
       color: #ffffff;
       font-size: 15px;
