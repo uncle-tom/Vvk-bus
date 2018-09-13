@@ -9000,7 +9000,9 @@ a:hover {
   width: 100%; }
 
 .box {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67);
+  box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67); }
   .box__title {
     font-size: 18px;
     font-weight: 600;

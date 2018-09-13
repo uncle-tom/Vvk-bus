@@ -36,7 +36,7 @@
 						</div>	
 					</div>
 					<div class="direction__more text-center">
-						<a href="<?php echo get_permalink(); ?>">
+						<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
 							подробнее о рейсе 
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 511.633 511.633" style="enable-background:new 0 0 511.633 511.633;" xml:space="preserve">
 								<g>
