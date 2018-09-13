@@ -229,6 +229,7 @@ function my_login_logo() { ?>
             background-image: url(/wp-content/uploads/2018/09/komplogo.png);
         width:100%;
         height:55px;
+        background-size: contain;
         }
     </style>
 <?php }
