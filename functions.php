@@ -158,6 +158,22 @@ function your_prefix_get_meta_box( $meta_boxes ) {
     );
 
     $meta_boxes[] = array(
+        'id' => 'vvk-dirurl',
+        'title' => esc_html__( 'Ссылка', 'vvk' ),
+        'post_types' => array( 'directions' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+            array(
+                'id' => $prefix . 'dirurl',
+                'type' => 'text',
+                'name' => esc_html__( 'Ссылка', 'vvk' ),
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
         'id' => 'vvk-buses',
         'title' => esc_html__( 'Информация', 'vvk' ),
         'post_types' => array( 'buses' ),
