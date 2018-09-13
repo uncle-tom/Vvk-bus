@@ -10305,7 +10305,8 @@ i {
       color: #ffffff; }
   .footer .menu ul li {
     float: none;
-    text-align: center; }
+    text-align: center;
+    margin-right: 0px; }
     .footer .menu ul li a {
       color: #ffffff;
       font-size: 15px;
