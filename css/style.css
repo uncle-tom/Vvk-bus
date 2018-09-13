@@ -10606,6 +10606,20 @@ i {
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
-      flex-direction: column; } }
+      flex-direction: column; }
+  .footer__directions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .footer__directions a {
+      margin-bottom: 15px; }
+      .footer__directions a:last-child {
+        margin-bottom: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
