@@ -57,8 +57,8 @@
 								?>
 							</div>
 							<div class="buttons">
-								<div class="btn btn-primary">обратный звонок</div>
-								<div class="btn btn-primary">чат в viber</div>
+								<div class="btn btn-primary"><span>обратный звонок</span></div>
+								<div class="btn btn-primary"><span>чат в viber</span></div>
 							</div>
 						</div>
 					</div>
@@ -78,7 +78,7 @@
 							<div class="toogle-menu"></div>
 							<div class="slide-menu">
 								<div class="text-center mb-4">
-									<div class="btn btn-primary">написать в viber</div>
+									<div class="btn btn-primary"><span>написать в viber</span></div>
 								</div>
 								<div class="menu">
 									<?php 
