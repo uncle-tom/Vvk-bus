@@ -10663,8 +10663,24 @@ i {
 
   .wecool .dir {
     width: 100%; }
+    .wecool .dir__list li {
+      text-align: left; }
+      .wecool .dir__list li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px; }
+      .wecool .dir__list li i {
+        color: #ffffff; }
+    .wecool .dir__list .my-btn {
+      padding: 5px 15px; }
     .wecool .dir__absolute {
       display: none; }
+    .wecool .dir__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10px; }
 
   .wemedal h2 {
     text-align: center; }

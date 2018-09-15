@@ -34,10 +34,22 @@ Template Name: О нас
 								<?php 
 						    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
 						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-						    	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						    	<li>
+						    		<a href="<?php the_permalink(); ?>">
+						    			<?php the_title(); ?>
+						    			<div class="mobile-show">
+							    			<span class="my-btn btn-blue">
+							    				<span><i class="fas fa-cart-plus"></i></span>
+							    			</span>
+						    			</div>
+						    		</a>
+						    	</li>
 						    <?php endwhile; endif; ?>
 							</div>
 							<div class="dir__bottom">
+								<div class="mobile-show">
+							    <img src="/wp-content/uploads/2018/09/bench-icon.png" alt="">
+							  </div>
 								<img src="/wp-content/uploads/2018/09/bus-icon-1.png" alt="">
 							</div>
 							<div class="dir__absolute">
