@@ -8975,7 +8975,7 @@ a:hover {
 
 .my-btn {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   font-size: 19px;
   text-align: center;
   overflow: hidden;
@@ -9077,6 +9077,7 @@ a:hover {
   background-color: #0089c8; }
 
 .box {
+  position: relative;
   background-color: #ffffff;
   -webkit-box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67);
   box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.67); }
@@ -10349,6 +10350,14 @@ i {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover; }
+.single .line1 {
+  height: 3px;
+  width: 355px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  background-color: #0089c8;
+  transform: rotate(-55deg); }
 
 .footer {
   position: relative;
