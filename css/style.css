@@ -8964,6 +8964,9 @@ a:hover {
 .relative {
   position: relative; }
 
+.width100 {
+  width: 100%; }
+
 .darkblue {
   color: #0089c8; }
 
@@ -9072,9 +9075,6 @@ a:hover {
 
 .btn-primary {
   background-color: #0089c8; }
-
-.width100 {
-  width: 100%; }
 
 .box {
   background-color: #ffffff;
@@ -10558,6 +10558,17 @@ i {
       margin-right: 0px; }
       .mobilemenu .slide-menu li:last-child {
         margin-bottom: 0px; }
+    .mobilemenu .slide-menu .phones span {
+      color: #5c5c5d; }
+    .mobilemenu .slide-menu .phones li {
+      margin-bottom: 10px;
+      font-size: 14px; }
+    .mobilemenu .slide-menu .phones i {
+      color: #5c5c5d; }
+    .mobilemenu .slide-menu .line {
+      width: 100%;
+      height: 1px;
+      background-color: #0089c8; }
   .mobilemenu .slide-menu_active {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);

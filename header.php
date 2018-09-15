@@ -77,15 +77,27 @@
 							</div>
 							<div class="toogle-menu"></div>
 							<div class="slide-menu">
-								<div class="text-center mb-4">
-									<div class="btn btn-primary"><span>написать в viber</span></div>
+								<div class="phones">
+									<div class="mb-3">
+										<i class="fas fa-phone mr-3"></i><span class="text-uppercase">Звоните</span>	
+									</div>
+									<ul>
+										<li><a href="tel:0674725997">(067)-472-59-97 (Viber)</a></li>
+										<li><a href="tel:0577280978">(057) 728-09-78</a></li>
+										<li><a href="tel:0638035526">(063)-803-55-26</a></li>
+										<li><a href="tel:0990579573">(099)-057-95-73</a></li>
+									</ul>
 								</div>
-								<div class="menu">
+								<div class="line my-3"></div>
+								<div class="menu mb-4">
 									<?php 
 										wp_nav_menu( array(
 											'menu'            => 'HeaderMenu', 
 										))
 									?>
+								</div>
+								<div class="width100 text-center">
+									<div class="btn btn-primary width100"><span>написать в viber</span></div>
 								</div>
 							</div>
 						</div>
