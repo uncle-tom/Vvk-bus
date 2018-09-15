@@ -9760,20 +9760,22 @@ i {
       box-shadow: inset 5px 1px 3px -2px rgba(0, 0, 0, 0.27);
       padding: 10px; }
 
+.wemedal img {
+  width: 100%; }
 .wemedal__bg {
   position: relative;
-  padding: 40px 0px; }
+  padding: 20px 0px; }
   .wemedal__bg:before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 55%;
     height: 100%;
     background-color: #e5f3f9;
-    -webkit-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    transform: skewY(-5deg); }
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg); }
 .wemedal h2 {
   display: -webkit-box;
   display: -webkit-flex;
