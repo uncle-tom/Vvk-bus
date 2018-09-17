@@ -9773,9 +9773,9 @@ i {
     width: 55%;
     height: 100%;
     background-color: #e5f3f9;
-    -webkit-transform: skewY(-10deg);
-    -ms-transform: skewY(-10deg);
-    transform: skewY(-10deg); }
+    -webkit-transform: skewY(-7deg);
+    -ms-transform: skewY(-7deg);
+    transform: skewY(-7deg); }
 .wemedal h2 {
   display: -webkit-box;
   display: -webkit-flex;
