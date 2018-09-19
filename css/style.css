@@ -10703,6 +10703,8 @@ i {
     margin-bottom: 50px; }
   .wemedal .heading {
     left: 90px; }
+  .wemedal__bg:before {
+    width: 100%; }
 
   .weteam h2 {
     text-align: center; }
