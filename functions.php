@@ -136,7 +136,7 @@ function your_prefix_get_meta_box( $meta_boxes ) {
             array(
                 'id' => $prefix . 'dir-valuta',
                 'name' => esc_html__( 'Валюта', 'vvk' ),
-                'type'    => 'checkbox_list',
+                'type'    => 'select',
                 // Options of checkboxes, in format 'value' => 'Label'
                 'options' => array(
                     '&#8372;'       => 'Гривна',
