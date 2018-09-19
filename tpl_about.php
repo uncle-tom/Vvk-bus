@@ -35,7 +35,7 @@ Template Name: О нас
 						    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
 						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 						    	<li>
-						    		<a href="<?php the_permalink(); ?>">
+						    		<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
 						    			<?php the_title(); ?>
 						    			<div class="mobile-show">
 							    			<span class="my-btn btn-blue">
@@ -57,7 +57,7 @@ Template Name: О нас
 									<?php 
 							    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
 							    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-							    	<li><a href="<?php the_permalink(); ?>"><i>→</i><div class="my-btn btn-blue"><span>заказать</span></div></a></li>
+							    	<li><a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>"><i>→</i><div class="my-btn btn-blue"><span>заказать</span></div></a></li>
 							    <?php endwhile; endif; ?>
 						    </div>
 						    <div class="bench">
@@ -96,7 +96,10 @@ Template Name: О нас
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="/wp-content/uploads/2018/09/gramata.png" alt="">
+					<div class="wemedal__img">
+						<img src="/wp-content/uploads/2018/09/vvkbus-gramota.png" alt="">
+						<img src="/wp-content/uploads/2018/09/orden.png" alt="">	
+					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="d-flex justify-content-center mb-4">
