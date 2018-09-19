@@ -10710,11 +10710,11 @@ i {
     width: 100%;
     margin-bottom: 3rem; }
     .wecool .dir__list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       text-align: left; }
       .wecool .dir__list li a {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         font-size: 14px; }
       .wecool .dir__list li i {
         color: #ffffff; }
