@@ -22,7 +22,7 @@ Template Name: Аренда
 					</div>
 					<div class="buttons text-center">
 						<div class="my-btn btn-blue" data-toggle="modal" data-target="#arendaModal"><span>аренда автобуса</span></div>
-						<div class="my-btn btn-white"><span><a href="/buses">наши автобусы</a></span></div>
+						<a href="/buses"><div class="my-btn btn-white"><span>наши автобусы</span></div></a>
 					</div>
 					<div class="arenda__line1"></div>
 					<div class="arenda__line2"></div>
@@ -110,7 +110,7 @@ Template Name: Аренда
 						<p>Цель нашей компании – обеспечить Вам яркие эмоции и впечатления о поездке, обеспечить комфорт и безопасность. Оставить только положительные впечатления о Вашей поездке даже на незначительные расстояния.</p>
 						<div class="buttons text-center">
 							<div class="my-btn btn-blue" data-toggle="modal" data-target="#arendaModal"><span>аренда автобуса</span></div>
-							<div class="my-btn btn-white"><span><a href="/buses">наши автобусы</a></span></div>
+							<a href="/buses"><div class="my-btn btn-white"><span>наши автобусы</span></div></a>
 						</div>
 					</div>
 				</div>
