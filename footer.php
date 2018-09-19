@@ -32,10 +32,11 @@
     					<hr>
     					<div class="footer__contact-info">
     						<div class="darkblue">
-	    						viber
+	    						viber: <a href="tel:380674725997
+                                ">+38 (067)-472-59-97</a>
 	    					</div>
 	    					<div>
-	    						+38 (067)-472-59-97
+	    						
 	    					</div>
 	    					<div class="darkblue">
 	    						e-mail: <a href="mailto:vvkbus.kh@gmail.com">vvkbus.kh@gmail.com</a>
