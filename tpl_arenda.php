@@ -110,7 +110,7 @@ Template Name: Аренда
 						<p>Цель нашей компании – обеспечить Вам яркие эмоции и впечатления о поездке, обеспечить комфорт и безопасность. Оставить только положительные впечатления о Вашей поездке даже на незначительные расстояния.</p>
 						<div class="buttons text-center">
 							<div class="my-btn btn-blue"><span>аренда автобуса</span></div>
-							<div class="my-btn btn-white"><span>заказать билет</span></div>
+							<div class="my-btn btn-white"><span><a href="/buses">наши автобусы</a></span></div>
 						</div>
 					</div>
 				</div>
