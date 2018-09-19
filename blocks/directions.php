@@ -28,7 +28,7 @@
 						<span class="direction__minutes"><?php echo rwmb_meta( 'meta-minutes' ); ?></span>
 					</div>
 					<div class="direction__price text-center">
-						<?php echo rwmb_meta( 'meta-price' ); ?><span>грн</span>
+						<?php echo rwmb_meta( 'meta-price' ); ?><span><?php echo rwmb_meta( 'meta-dir-valuta' ); ?></span>
 					</div>
 					<div class="d-flex justify-content-center">
 						<div class="direction__button">
