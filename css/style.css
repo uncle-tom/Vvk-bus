@@ -10415,6 +10415,8 @@ i {
     .footer h3 span:after {
       left: 100%; }
   .footer__directions {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 25px; }
     .footer__directions a {
