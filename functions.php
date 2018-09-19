@@ -121,8 +121,25 @@ function your_prefix_get_meta_box( $meta_boxes ) {
     $prefix = 'meta-';
 
     $meta_boxes[] = array(
+        'id' => 'vvk-dirurl',
+        'title' => esc_html__( 'Дополнительная информация', 'vvk' ),
+        'post_types' => array( 'directions' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+            array(
+                'id' => $prefix . 'dir-popular',
+                'type' => 'checkbox',
+                'name' => esc_html__( 'Популярное направление?', 'vvk' ),
+                'std'  => 0,
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
         'id' => 'vvk-price',
-        'title' => esc_html__( 'Мета-боксы для Цен', 'vvk' ),
+        'title' => esc_html__( 'Купить билет', 'vvk' ),
         'post_types' => array( 'directions' ),
         'context' => 'advanced',
         'priority' => 'default',
