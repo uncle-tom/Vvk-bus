@@ -61,7 +61,7 @@
 					</div>
 					<div class="buttons">
 						<div class="my-btn btn-blue"><span>аренда автобуса</span></div>
-						<div class="my-btn btn-white"><span>наши автобусы</span></div>
+						<div class="my-btn btn-white"><span>написать в viber</span></div>
 					</div>
 				</div>
 			</div>
