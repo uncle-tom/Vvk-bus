@@ -9010,6 +9010,9 @@ a:hover {
     -o-transition: transform 0.3s;
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s; }
+  .my-btn:hover a {
+    color: #ffffff;
+    transition: color 0.3s; }
   .my-btn:hover span {
     color: #ffffff;
     -webkit-transition: color 0.3s;
@@ -9024,6 +9027,12 @@ a:hover {
     -o-transition: transform 0.3s;
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s; }
+  .my-btn a {
+    color: #0089c8;
+    transition: color 0.3s; }
+  .my-btn a:hover {
+    color: #ffffff;
+    transition: color 0.3s; }
 
 .btn {
   position: relative;

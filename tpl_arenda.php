@@ -22,7 +22,7 @@ Template Name: Аренда
 					</div>
 					<div class="buttons text-center">
 						<div class="my-btn btn-blue"><span>аренда автобуса</span></div>
-						<div class="my-btn btn-white"><span>заказать билет</span></div>
+						<div class="my-btn btn-white"><span><a href="/buses">наши автобусы</a></span></div>
 					</div>
 					<div class="arenda__line1"></div>
 					<div class="arenda__line2"></div>
