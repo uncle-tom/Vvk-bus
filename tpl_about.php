@@ -35,14 +35,14 @@ Template Name: О нас
 						    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'post_per_page' => 5 ) );
 						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 						    	<li>
-						    		<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
-						    			<?php the_title(); ?>
+						    		<?php the_title(); ?>
+					    			<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
 						    			<div class="mobile-show">
 							    			<span class="my-btn btn-blue">
 							    				<span><i class="fas fa-cart-plus"></i></span>
 							    			</span>
 						    			</div>
-						    		</a>
+					    			</a>
 						    	</li>
 						    <?php endwhile; endif; ?>
 							</div>
