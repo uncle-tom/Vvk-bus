@@ -121,7 +121,7 @@ function your_prefix_get_meta_box( $meta_boxes ) {
     $prefix = 'meta-';
 
     $meta_boxes[] = array(
-        'id' => 'vvk-dirurl',
+        'id' => 'vvk-dir-popular',
         'title' => esc_html__( 'Дополнительная информация', 'vvk' ),
         'post_types' => array( 'directions' ),
         'context' => 'advanced',
