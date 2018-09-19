@@ -12,7 +12,17 @@
 	<div class="container">
 		<div class="row">
 			<?php 
-	    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'posts_per_page' => 3 ) );
+	    $custom_query = new WP_Query( array( 
+	    	'post_type' => 'directions', 
+	    	'posts_per_page' => 3, 
+	    	'meta_query' => array(
+					array(
+						'key'     => 'meta-dir-popular',
+						'value'   => 1,
+						'compare' => '=',
+					),
+				)
+	    ));
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 			<div class="col-md-4">
 				<!-- begin direction -->
