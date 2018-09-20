@@ -10,7 +10,7 @@
 		    				<?php 
 						    $custom_query = new WP_Query( array( 'post_type' => 'directions' ) );
 						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-						    	<a href="<?php get_permalink(); ?>" class="footer__direction"><?php the_title(); ?></a>
+						    	<a href="<?php the_permalink(); ?>" class="footer__direction"><?php the_title(); ?></a>
 						    <?php endwhile; endif; ?>
 					    </div>
 					    <div class="my-btn btn-transparent"><span>Заказать</span></div>
