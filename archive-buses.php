@@ -36,9 +36,12 @@
 						<div class="bus__images-border"><span></span></div>
 						<div class="bus__images-line1"></div>
 						<div class="bus__images-line2"></div>
-						<?php 
-							rwmb_the_value( 'meta-images', array( 'size' => 'medium' ) );
-						?>	
+						
+						<?php $images = rwmb_meta( 'meta-images', array( 'size' => 'medium' ) );
+							foreach ( $images as $image ) {
+							    echo '<a href="', $image['full_url'], '"><img src="', $image['url'], '"></a>';
+							} 
+						?>
 					</div>
 				</div>
 				<div class="col-md-6">
