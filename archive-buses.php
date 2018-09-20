@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+lin
 <!-- begin hero -->
 	<div class="hero" style="background: url(/wp-content/uploads/2018/09/back-header-1.jpg); background-size: cover;">
 		<!-- <div class="hero__absolute"></div> -->
@@ -39,7 +40,7 @@
 						<ul>
 						<?php $images = rwmb_meta( 'meta-images', array( 'size' => 'medium' ) );
 							foreach ( $images as $image ) {
-							    echo '<li><a href="', $image['full_url'], '"><img src="', $image['url'], '"></a></li>';
+							    echo '<li><a href="', $image['full_url'], '" data-lightbox="image-1" data-title="My caption"><img src="', $image['url'], '"></a></li>';
 							} 
 						?>
 						</ul>
