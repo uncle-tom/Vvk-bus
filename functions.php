@@ -27,6 +27,9 @@ if( !isset( $content_width ) ) {
 register_nav_menus( array(
     'main_menu' => __( 'Menu principal', 'minimal-blank-theme' ) //@TODO : change i18n domain name to yours
 ) );
+
+add_post_type_support( 'post', 'page-attributes' );
+
 // Register sidebars
 function registerThemeSidebars() {
     if( !function_exists( 'register_sidebar' ) ) {
@@ -98,7 +101,7 @@ function create_post_type() {
       ),
       'public' => true,
       'has_archive' => true,
-      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'page-attributes' ),
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     )
   );
   register_post_type( 'buses',
@@ -109,7 +112,7 @@ function create_post_type() {
       ),
       'public' => true,
       'has_archive' => true,
-      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'page-attributes' ),
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     )
   );
 };
