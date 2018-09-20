@@ -41,12 +41,14 @@
 						<?php echo rwmb_meta( 'meta-price' ); ?><span><?php echo rwmb_meta( 'meta-dir-valuta' ); ?></span>
 					</div>
 					<div class="d-flex justify-content-center">
-						<div class="direction__button">
-							заказать
-						</div>	
+						<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
+							<div class="direction__button">
+								заказать
+							</div>
+						</a>
 					</div>
 					<div class="direction__more text-center">
-						<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>">
+						<a href="<?php the_permalink(); ?>">
 							подробнее о рейсе 
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 511.633 511.633" style="enable-background:new 0 0 511.633 511.633;" xml:space="preserve">
 								<g>
