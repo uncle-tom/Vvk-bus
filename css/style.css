@@ -9223,9 +9223,11 @@ i {
     font-weight: 300; }
 
 .booking {
+  width: 100%;
   background-color: rgba(24, 136, 172, 0.7);
   -webkit-border-radius: 4px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  overflow: hidden; }
 
 .directions {
   position: relative; }
@@ -9390,7 +9392,8 @@ i {
     transform: rotate(-62deg); }
 
 .route {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .whyus h2 {
   position: relative;

@@ -1,12 +1,12 @@
 <div class="box">
 	<div class="mb-5">
 		<div class="box__title bg-light p-4">
-			Популярные направления
+			Основные маршруты
 		</div>
 		<div class="p-4">
 			<div class="mb-3">Забронируйте билет прямо сейчас!</div>
 			<?php 
-	    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'posts_per_page' => 5 ) );
+	    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'posts_per_page' => 6 ) );
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 	    	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 	    <?php endwhile; endif; ?>
