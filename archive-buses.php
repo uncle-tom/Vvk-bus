@@ -38,9 +38,11 @@ lin
 						<div class="bus__images-line1"></div>
 						<div class="bus__images-line2"></div>
 						<ul>
-						<?php $images = rwmb_meta( 'meta-images', array( 'size' => 'medium' ) );
+						<?php 
+							$images = rwmb_meta( 'meta-images', array( 'size' => 'medium' ) );
+							$title_bus = get_the_title();
 							foreach ( $images as $image ) {
-							    echo '<li><a href="', $image['full_url'], '" data-lightbox="image-1" data-title="My caption"><img src="', $image['url'], '"></a></li>';
+							    echo '<li><a href="', $image['full_url'], '" data-lightbox="image-1" data-title="', $title_bus,'"><img src="', $image['url'], '"></a></li>';
 							} 
 						?>
 						</ul>
