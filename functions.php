@@ -28,7 +28,7 @@ register_nav_menus( array(
     'main_menu' => __( 'Menu principal', 'minimal-blank-theme' ) //@TODO : change i18n domain name to yours
 ) );
 
-add_post_type_support( 'post', 'page-attributes' );
+add_post_type_support( 'buses', 'page-attributes' );
 
 // Register sidebars
 function registerThemeSidebars() {
