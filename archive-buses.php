@@ -19,7 +19,7 @@
 <!-- begin buses -->
 <div class="buses pt-5">
 	<?php 
-	    $custom_query = new WP_Query( array( 'post_type' => 'buses', 'order' => 'ASC' ) );
+	    $custom_query = new WP_Query( array( 'post_type' => 'buses' ) );
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 	<!-- begin bus -->
 	<div class="bus">
