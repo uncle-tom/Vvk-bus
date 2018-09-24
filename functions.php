@@ -126,6 +126,45 @@ function your_prefix_get_meta_box( $meta_boxes ) {
     $prefix = 'meta-';
 
     $meta_boxes[] = array(
+        'id' => 'vvk-dir-maininfo',
+        'title' => esc_html__( 'Основная информация', 'vvk' ),
+        'post_types' => array( 'directions' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+            array(
+                'id' => $prefix . 'dir-from',
+                'type' => 'select_advanced',
+                'name' => esc_html__( 'Откуда', 'vvk' ),
+                'multiple' => false,
+                'options'         => array(
+                    'Харьков' => 'Харьков',
+                    'Варшава' => 'Варшава',
+                    'Полтава' => 'Полтава',
+                    'Москва'  => 'Москва',
+                    'Познань' => 'Познань',
+                    'Гдыня'   => 'Гдыня',
+                ),
+            ),
+            array(
+                'id' => $prefix . 'dir-to',
+                'type' => 'select_advanced',
+                'name' => esc_html__( 'Куда', 'vvk' ),
+                'multiple' => false,
+                'options' => array(
+                    'Харьков' => 'Харьков',
+                    'Варшава' => 'Варшава',
+                    'Полтава' => 'Полтава',
+                    'Москва'  => 'Москва',
+                    'Познань' => 'Познань',
+                    'Гдыня'   => 'Гдыня',
+                ),
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
         'id' => 'vvk-dir-popular',
         'title' => esc_html__( 'Дополнительная информация', 'vvk' ),
         'post_types' => array( 'directions' ),
@@ -162,9 +201,9 @@ function your_prefix_get_meta_box( $meta_boxes ) {
                 'multiple'        => false,
                 // Options of checkboxes, in format 'value' => 'Label'
                 'options' => array(
-                    '&#8372;'       => 'Гривна',
+                    'UAH'       => 'Гривна',
                     'PLN' => 'Польский злотый',
-                    '&#8381;'        => 'Рубль',
+                    'RUB'        => 'Рубль',
                 ),
             ),
         ),

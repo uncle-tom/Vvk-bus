@@ -24,8 +24,6 @@ Template Name: Маршрут
 	$request_url = $_SERVER['REQUEST_URI'];
 	$new_request_url = str_replace('/mythemetwo/samoilov/','', $request_url);
 	echo $new_request_url;
-	// $current_url = home_url(add_query_arg(array(),$wp->request));
-  // print_r('current_url', $wp->request);
   $my_query = new WP_Query( array( 
   	'post_type' => 'directions', 
   	'meta_query' => array(

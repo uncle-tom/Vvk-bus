@@ -9233,7 +9233,8 @@ i {
   background-color: rgba(24, 136, 172, 0.7);
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  overflow: hidden; }
+  overflow: inherit;
+  overflow-x: hidden; }
 
 .directions {
   position: relative; }
