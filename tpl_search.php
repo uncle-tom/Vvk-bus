@@ -19,19 +19,21 @@ Template Name: Маршрут
 	</div>
 </div>
 
-<?php 
-  $custom_query = new WP_Query( array( 
+<?php
+	
+  $my_query = new WP_Query( array( 
+  	$my_permalink = the_permalink(),
   	'post_type' => 'directions', 
   	'meta_query' => array(
 			array(
-				'key'     => the_permalink()+'meta-dirurl',
-				'value'   => the_permalink(),
-				'compare' => '=',
+				'key'     => 'meta-dirurl',
+				'value'   => $my_permalink,
+				'compare' => LIKE
 			),
 		)
   ));
-  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-  текст <?php the_title(); ?>
+  if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
+  <?php the_title(); ?> 
 <?php endwhile; endif; ?>
 
 
