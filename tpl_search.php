@@ -20,20 +20,24 @@ Template Name: Маршрут
 </div>
 
 <?php
-	
+	global $wp; 
+	$request_url = $_SERVER['REQUEST_URI'];
+	$new_request_url = str_replace('/mythemetwo/samoilov/','', $request_url);
+	echo $new_request_url;
+	// $current_url = home_url(add_query_arg(array(),$wp->request));
+  // print_r('current_url', $wp->request);
   $my_query = new WP_Query( array( 
-  	$my_permalink = the_permalink(),
   	'post_type' => 'directions', 
   	'meta_query' => array(
 			array(
 				'key'     => 'meta-dirurl',
-				'value'   => $my_permalink,
-				'compare' => LIKE
+				'value'   => $new_request_url,
+				'compare' => 'LIKE'
 			),
 		)
   ));
   if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
-  <?php the_title(); ?> 
+	<?php the_title(); ?>
 <?php endwhile; endif; ?>
 
 
