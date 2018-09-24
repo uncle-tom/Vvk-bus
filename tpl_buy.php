@@ -18,7 +18,7 @@ Template Name: Order
 	</div>
 </div>
 
-<div class="container">
+<div class="container py-5">
 	<!-- begin directions-columns -->
 		<?php get_template_part( 'blocks/directions-columns', 'default' ); ?>
 	<!-- end directions-columns -->
