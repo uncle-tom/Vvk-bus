@@ -23,7 +23,7 @@
 		<div class="col-md-6">
 			<div class="direction">
 				<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
-					<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы из <?php echo rwmb_meta( 'meta-dir-from' ); ?></div>
+					<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы из города <?php echo rwmb_meta( 'meta-dir-from' ); ?></div>
 					<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
 				</div>
 				
@@ -55,7 +55,7 @@
 		<div class="col-md-6">
 			<div class="direction">
 				<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
-					<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы в <?php echo rwmb_meta( 'meta-dir-to' ); ?></div>
+					<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы из города <?php echo rwmb_meta( 'meta-dir-to' ); ?></div>
 					<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
 				</div>
 				<?php 
@@ -65,7 +65,7 @@
 		    	'posts_per_page' => 10, 
 		    	'meta_query' => array(
 						array(
-							'key'     => 'meta-dir-to',
+							'key'     => 'meta-dir-from',
 							'value'   => $dir_to,
 							'compare' => '=',
 						),
