@@ -29,7 +29,7 @@
 				
 				<?php 
 				$dir_from = rwmb_meta( 'meta-dir-from' );
-		    $custom_query = new WP_Query( array( 
+		    $custom_query_from = new WP_Query( array( 
 		    	'post_type' => 'directions', 
 		    	'posts_per_page' => 10, 
 		    	'meta_query' => array(
@@ -40,7 +40,7 @@
 						),
 					)
 		    ));
-		    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+		    if ($custom_query_from->have_posts()) : while ($custom_query_from->have_posts()) : $custom_query_from->the_post(); ?>
 		    	<div class="direction__tr d-flex justify-content-between align-items-center p-3">
 		    		<div class="direction__name">
 			    		<a href="<?php the_permalink(); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a>
@@ -49,7 +49,10 @@
 			    		<?php echo rwmb_meta( 'meta-price' ); ?> <?php echo rwmb_meta( 'meta-dir-valuta' ); ?>
 			    	</div>
 		    	</div>
-		    <?php endwhile; endif; ?>
+		    <?php 
+		  		endwhile; endif; 
+		    	wp_reset_query();
+		    ?>
 	    </div>
 		</div>
 		<div class="col-md-6">
@@ -81,7 +84,10 @@
 			    	</div>
 		    	</div>
 		    </div>
-	    <?php endwhile; endif; ?>
+	    <?php 
+	  		endwhile; endif; 
+	    	wp_reset_query();
+	    ?>
 		</div>
 	</div>
 	<?php endwhile; else: ?>
