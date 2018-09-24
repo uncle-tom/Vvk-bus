@@ -39,7 +39,7 @@ Template Name: Маршруты
 				    
 				    	<div class="direction__tr d-flex justify-content-between align-items-center p-3">
 				    		<div class="direction__name">
-					    		<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a>
+					    		<a href="<?php the_permalink(); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a>
 					    	</div>
 					    	<div class="direction__time m-0">
 					    		<?php echo rwmb_meta( 'meta-price' ); ?> <?php echo rwmb_meta( 'meta-dir-valuta' ); ?>
@@ -64,7 +64,7 @@ Template Name: Маршруты
 				    
 				    	<div class="direction__tr d-flex justify-content-between align-items-center p-3">
 				    		<div class="direction__name">
-					    		<a href="<?php echo rwmb_meta( 'meta-dirurl' ); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a>
+					    		<a href="<?php the_permalink(); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a>
 					    	</div>
 					    	<div class="direction__time m-0">
 					    		<?php echo rwmb_meta( 'meta-price' ); ?> <?php echo rwmb_meta( 'meta-dir-valuta' ); ?>
