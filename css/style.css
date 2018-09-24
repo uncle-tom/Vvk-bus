@@ -9232,11 +9232,9 @@ i {
   width: 100%;
   background-color: rgba(24, 136, 172, 0.7);
   -webkit-border-radius: 4px;
-  border-radius: 4px;
-  overflow-x: hidden;
-  overflow: inherit; }
+  border-radius: 4px; }
 
-.octobus__field #bothSide {
+.octobus__field #bothSide, .field #directPath {
   width: auto; }
 
 .directions {
