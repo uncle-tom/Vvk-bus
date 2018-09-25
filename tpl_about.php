@@ -79,7 +79,7 @@ Template Name: О нас
 </div>
 <!-- end wecool -->
 <!-- begin wemedal -->
-<div class="wemedal py-5">
+<div class="wemedal py-5 mb-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
