@@ -67,7 +67,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="buttons">
-						<div class="my-btn btn-blue"><span>обратный звонок</span></div>
+						<div class="my-btn btn-blue" data-toggle="modal" data-target="#callModal"><span>обратный звонок</span></div>
 						<a href="/order"><div class="my-btn btn-white mx-4"><span>заказать билет</span></div></a>
 						<a href="viber://chat?number=+380674725997"><div class="my-btn btn-blue"><span>написать в viber</span></div></a>
 					</div>

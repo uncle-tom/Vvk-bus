@@ -57,7 +57,7 @@
 								?>
 							</div>
 							<div class="buttons">
-								<div class="btn btn-primary"><span>обратный звонок</span></div>
+								<div class="btn btn-primary" data-toggle="modal" data-target="#callModal"><span>обратный звонок</span></div>
 								<a href="viber://chat?number=+380674725997"><div class="btn btn-primary"><span>чат в viber</span></div></a>
 							</div>
 						</div>
