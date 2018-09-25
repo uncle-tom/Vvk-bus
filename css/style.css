@@ -10078,29 +10078,45 @@ i {
   .dirlines:hover {
     opacity: 1;
     transition: all 0.4s; }
+    .dirlines:hover .dirline {
+      transition: all 0.4s; }
+      .dirlines:hover .dirline:before {
+        left: 0px;
+        border: 1px solid #A2ABF0; }
+      .dirlines:hover .dirline:after {
+        right: 0px;
+        border: 1px solid #A2ABF0; }
 
 .dirline {
   width: 100%;
   position: relative;
   font-size: 14px;
   color: #444442; }
+  .dirline:first-child:before {
+    display: none; }
+  .dirline:first-child .dirline__circle {
+    width: 18px;
+    height: 18px; }
+  .dirline:last-child:after {
+    display: none; }
+  .dirline:last-child .dirline__circle {
+    width: 18px;
+    height: 18px; }
   .dirline:before {
     content: '';
-    height: 3px;
     width: 50%;
     position: absolute;
     top: 50%;
-    left: 0;
-    background-color: #A2ABF0;
+    left: 1px;
+    border: 1px dashed #A2ABF0;
     transform: translateY(-50%); }
   .dirline:after {
     content: '';
-    height: 3px;
     width: 50%;
     position: absolute;
     top: 50%;
-    right: 0;
-    background-color: #A2ABF0;
+    right: 1px;
+    border: 1px dashed #A2ABF0;
     transform: translateY(-50%); }
   .dirline__name {
     height: 24px;
