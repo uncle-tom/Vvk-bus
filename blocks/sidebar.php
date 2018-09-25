@@ -8,7 +8,7 @@
 			<?php 
 	    $custom_query = new WP_Query( array( 'post_type' => 'directions', 'posts_per_page' => 6 ) );
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-	    	<li><a href="<?php the_permalink(); ?>"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a></li>
+	    	<li class="mb-3"><a href="<?php the_permalink(); ?>" class="text-uppercase"><span><?php echo rwmb_meta( 'meta-dir-from' ); ?></span> → <span><?php echo rwmb_meta( 'meta-dir-to' ); ?></span></a></li>
 	    <?php endwhile; endif; ?>
 	    <div class="box__bus">
 	    	<img src="http://vvkbus.wemodern.com/wp-content/uploads/2018/09/bus-icon-1.png" alt="">	
