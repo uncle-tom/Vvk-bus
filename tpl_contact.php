@@ -18,7 +18,7 @@ Template Name: Контакты
 						<i class="fas fa-phone mr-2"></i> Звоните
 					</div>
 					<ul>
-						<li><a href="tel:0674725997">(067)-472-59-97 (Viber)</a></li>
+						<li><a href="viber://chat?number=+380674725997">(067)-472-59-97 (Viber)</a></li>
 						<li><a href="tel:0577280978">(057) 728-09-78</a></li>
 						<li><a href="tel:0638035526">(063)-803-55-26</a></li>
 						<li class="mb-3"><a href="tel:0990579573">(099)-057-95-73</a></li>
