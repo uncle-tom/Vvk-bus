@@ -10360,7 +10360,7 @@ i {
     border-top: 1px solid #0089c8; }
   .arenda .arenda__komfort {
     position: relative;
-    padding: 80px 0px; }
+    padding: 10px 0px 60px 0px; }
     .arenda .arenda__komfort:before {
       content: '';
       position: absolute;
@@ -10412,6 +10412,8 @@ i {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end; }
+    .arenda__zakaz-img a {
+      z-index: 1; }
     .arenda__zakaz-img img {
       width: 90%;
       border: 4px solid #0089c8;

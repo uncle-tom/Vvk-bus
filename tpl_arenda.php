@@ -82,7 +82,7 @@ Template Name: Аренда
 		<div class="arenda__komfort-line2"></div>
 	</div>
 	<div class="py-5">
-		<div class="arenda__zakaz">
+		<div class="arenda__zakaz pt-5">
 			<h2 class="d-flex justify-content-center">
 				<div class="relative mb-4">
 					<span><b>Д</b>ля заказа автобуса в Харькове</span>
