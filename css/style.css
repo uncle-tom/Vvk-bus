@@ -10086,6 +10086,18 @@ i {
       .dirlines:hover .dirline:after {
         right: 0px;
         border: 1px solid #A2ABF0; }
+      .dirlines:hover .dirline__name {
+        top: -25px;
+        transition: all 0.4s; }
+
+.red:hover .dirline:before, .red:hover .dirline:after {
+  border: 1px solid #FC114C; }
+
+.yellow:hover .dirline:before, .yellow:hover .dirline:after {
+  border: 1px solid #FE9F3C; }
+
+.green:hover .dirline:before, .green:hover .dirline:after {
+  border: 1px solid #188959; }
 
 .dirline {
   width: 100%;
@@ -10130,7 +10142,8 @@ i {
     position: relative;
     top: -20px;
     text-align: center;
-    padding: 0px 5px; }
+    padding: 0px 5px;
+    transition: all 0.4s; }
   .dirline__circle {
     width: 12px;
     height: 12px;
