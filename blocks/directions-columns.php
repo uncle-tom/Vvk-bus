@@ -1,6 +1,6 @@
 <div class="row directions">
 	<div class="col-md-6">
-		<div class="direction">
+		<div class="direction" data-aos="fade-right">
 			<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
 				<div class="font-weight-bold"><i class="fas fa-bus"></i> Маршрут</div>
 				<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
@@ -22,7 +22,7 @@
     </div>
 	</div>
 	<div class="col-md-6">
-		<div class="direction">
+		<div class="direction" data-aos="fade-left">
 			<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
 				<div class="font-weight-bold"><i class="fas fa-bus"></i> Маршрут</div>
 				<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
