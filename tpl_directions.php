@@ -8,11 +8,21 @@ Template Name: Маршруты
 <!-- begin hero -->
 	<?php get_template_part( 'blocks/hero', 'default' ); ?>
 <!-- end hero -->
+
 <!-- begin topdirection -->
 <div class="topdirection">
 	<?php get_template_part( 'blocks/directions', 'default' ); ?>
 </div>
 <!-- end topdirection -->
+
+<div class="container">
+	<div class="row">
+		<!-- begin dir-lines -->
+			<?php get_template_part( 'blocks/dir-lines', 'default' ); ?>
+		<!-- end dir-lines -->		
+	</div>
+</div>
+
 <!-- begin alldirections -->
 <div class="alldirections py-5">
 	<div class="container">

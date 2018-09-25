@@ -15,10 +15,10 @@ Template Name: Аренда
 			<div class="row">
 				<div class="col-md-6">
 					<div class="arenda__photos mb-5">
-						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
-						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
-						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
-						<img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt="">
+						<a href="/wp-content/uploads/2018/09/DPP_0018.jpg" data-lightbox="image-1" data-title="Title1"><img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/DPP_0018.jpg" data-lightbox="image-1" data-title="Title1"><img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/DPP_0018.jpg" data-lightbox="image-1" data-title="Title1"><img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/DPP_0018.jpg" data-lightbox="image-1" data-title="Title1"><img src="/wp-content/uploads/2018/09/DPP_0018.jpg" alt=""></a>
 					</div>
 					<div class="buttons text-center">
 						<div class="my-btn btn-blue" data-toggle="modal" data-target="#arendaModal"><span>аренда автобуса</span></div>

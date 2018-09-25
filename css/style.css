@@ -10067,6 +10067,38 @@ i {
 .direction__tr:nth-child(odd) {
   background-color: #bee1f1; }
 
+.dirlines {
+  position: relative; }
+
+.dirline {
+  font-size: 14px;
+  float: left; }
+  .dirline:before {
+    content: ''; }
+  .dirline:after {
+    content: ''; }
+
+.khpoz__kh {
+  left: 0; }
+.khpoz__poltava {
+  left: 10%; }
+.khpoz__kiyv {
+  left: 20%; }
+.khpoz__jitomir {
+  left: 30%; }
+.khpoz__rovno {
+  left: 40%; }
+.khpoz__lviv {
+  left: 50%; }
+.khpoz__krakov {
+  left: 60%; }
+.khpoz__katovice {
+  left: 70%; }
+.khpoz__vrozlav {
+  left: 80%; }
+.khpoz__poznan {
+  left: 90%; }
+
 .buses .bus {
   position: relative;
   padding: 60px 0px;
