@@ -15,10 +15,10 @@ Template Name: Аренда
 			<div class="row">
 				<div class="col-md-6">
 					<div class="arenda__photos mb-5">
-						<a href="/wp-content/uploads/2018/08/vvk-bus4.jpg" data-lightbox="image-1" data-title="Title1"><img src="/wp-content/uploads/2018/08/vvk-bus4.jpg" alt=""></a>
-						<a href="/wp-content/uploads/2018/09/bus-man-img1.jpg" data-lightbox="image-2" data-title="Title1"><img src="/wp-content/uploads/2018/08/DPP_0018-300x200.jpg" alt=""></a>
-						<a href="/wp-content/uploads/2018/09/toyota-img2.jpg" data-lightbox="image-3" data-title="Title1"><img src="/wp-content/uploads/2018/09/toyota-img2-300x200.jpg" alt=""></a>
-						<a href="/wp-content/uploads/2018/09/MERSEDES-0303-RH-img2.jpg" data-lightbox="image-4" data-title="Title1"><img src="/wp-content/uploads/2018/09/MERSEDES-0303-RH-img2-300x200.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/08/vvk-bus4.jpg" data-lightbox="image-1" data-title="Заказать автобус"><img src="/wp-content/uploads/2018/08/vvk-bus4.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/bus-man-img1.jpg" data-lightbox="image-2" data-title="Заказать автобус"><img src="/wp-content/uploads/2018/08/DPP_0018-300x200.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/toyota-img2.jpg" data-lightbox="image-3" data-title="Заказать автобус"><img src="/wp-content/uploads/2018/09/toyota-img2-300x200.jpg" alt=""></a>
+						<a href="/wp-content/uploads/2018/09/MERSEDES-0303-RH-img2.jpg" data-lightbox="image-4" data-title="Заказать автобус"><img src="/wp-content/uploads/2018/09/MERSEDES-0303-RH-img2-300x200.jpg" alt=""></a>
 					</div>
 					<div class="buttons text-center">
 						<div class="my-btn btn-blue" data-toggle="modal" data-target="#arendaModal"><span>аренда автобуса</span></div>
@@ -56,7 +56,7 @@ Template Name: Аренда
 		</div>
 	</div>
 	<h2 class="d-flex justify-content-center pt-5">
-		<div class="relative mb-4">
+		<div class="relative">
 			<span><b>О</b>пыт, комфорт, чистота</span>
 			<div class="heading">мы предлагаем</div>	
 		</div>
