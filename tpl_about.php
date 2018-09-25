@@ -121,7 +121,7 @@ Template Name: О нас
 </div>
 <!-- end wemedal -->
 
-<!-- begin weteam -->
+<!-- begin weteam 
 <div class="weteam py-5">
 	<h2>
 		<div class="relative mb-5">
@@ -169,5 +169,5 @@ Template Name: О нас
 		</div>
 	</div>
 </div>
-<!-- end weteam -->
+ end weteam -->
 <?php get_footer(); ?>
