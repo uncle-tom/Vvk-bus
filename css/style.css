@@ -10094,11 +10094,17 @@ i {
   color: #444442; }
   .dirline:first-child:before {
     display: none; }
+  .dirline:first-child .dirline__name {
+    top: -25px;
+    font-size: 16px; }
   .dirline:first-child .dirline__circle {
     width: 18px;
     height: 18px; }
   .dirline:last-child:after {
     display: none; }
+  .dirline:last-child .dirline__name {
+    top: -25px;
+    font-size: 16px; }
   .dirline:last-child .dirline__circle {
     width: 18px;
     height: 18px; }
