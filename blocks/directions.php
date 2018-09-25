@@ -26,7 +26,7 @@
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 			<div class="col-md-4">
 				<!-- begin direction -->
-				<div class="direction">
+				<div class="direction" data-aos="fade-up" data-aos-anchor-placement="center-center">
 					<div class="direction__photo" style="background: url(<?php echo get_the_post_thumbnail_url(); ?>); background-size: 100%;">
 						<div class="direction__title">
 							<?php the_title(); ?>	

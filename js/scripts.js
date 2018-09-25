@@ -14,6 +14,8 @@ $(window).scroll(function(){
 	}
 })
 
+AOS.init();
+
 // if ($(document).width() > 960) {
 // 	$(window).scroll(function(){
 // 		var h_scroll = $(this).scrollTop();
