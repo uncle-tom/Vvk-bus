@@ -22,7 +22,7 @@
 					<div class="col-md-12 d-flex justify-content-between">
 						<div class="leftside d-flex">
 							<div class="mr-4">
-								<a href="tel:<?php echo get_option('phone'); ?>"><i class="fab fa-viber mr-2"></i><?php echo get_option('phone'); ?></a>	
+								<a href="viber://chat?number=+380674725997"><i class="fab fa-viber mr-2"></i><?php echo get_option('phone'); ?></a>	
 							</div>
 							<div class="">
 								<a href="mailto:<?php echo get_option('email'); ?>" class="d-flex align-items-center"><i class="fas fa-envelope mr-2"></i><?php echo get_option('email'); ?></a>
@@ -82,7 +82,7 @@
 										<i class="fas fa-phone mr-3"></i><span class="text-uppercase">Звоните</span>	
 									</div>
 									<ul>
-										<li><a href="tel:0674725997">(067)-472-59-97 (Viber)</a></li>
+										<li><a href="viber://chat?number=+380674725997">(067)-472-59-97 (Viber)</a></li>
 										<li><a href="tel:0577280978">(057) 728-09-78</a></li>
 										<li><a href="tel:0638035526">(063)-803-55-26</a></li>
 										<li><a href="tel:0990579573">(099)-057-95-73</a></li>
@@ -97,7 +97,7 @@
 									?>
 								</div>
 								<div class="width100 text-center">
-									<div class="btn btn-primary width100"><span>написать в viber</span></div>
+									<a href="viber://chat?number=+380674725997"><div class="btn btn-primary width100"><span>написать в viber</span></div></a>
 								</div>
 							</div>
 						</div>
