@@ -66,8 +66,8 @@
 						</div>						
 					</div>
 					<div class="buttons">
-						<div class="my-btn btn-blue"><span>аренда автобуса</span></div>
-						<div class="my-btn btn-white"><span>написать в viber</span></div>
+						<div class="my-btn btn-blue" data-toggle="modal" data-target="#arendaModal"><span>аренда автобуса</span></div>
+						<a href="viber://chat?number=+380674725997"><div class="my-btn btn-white"><span>написать в viber</span></div></a>
 					</div>
 				</div>
 			</div>
@@ -77,4 +77,21 @@
 	<?php endwhile; endif; ?>
 </div>
 <!-- end buses -->
+
+<!-- Arenda Bus Modal -->
+<div class="modal fade" id="arendaModal" tabindex="-1" role="dialog" aria-labelledby="arendaModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="exampleModalLabel">Аренда автобуса</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  <div class="modal-body">
+	  	<?php echo do_shortcode('[contact-form-7 id="334" title="Аренда автобуса"]'); ?>
+	  </div>
+	</div>
+  </div>
+</div>
 <?php get_footer(); ?>

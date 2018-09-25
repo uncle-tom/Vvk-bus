@@ -32,8 +32,7 @@
     					<hr>
     					<div class="footer__contact-info">
     						<div class="darkblue">
-	    						viber: <a href="tel:380674725997
-                                ">+38 (067)-472-59-97</a>
+	    						viber: <a href="viber://chat?number=+380674725997">+38 (067)-472-59-97</a>
 	    					</div>
 	    					<div>
 	    						
