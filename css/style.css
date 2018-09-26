@@ -8971,6 +8971,9 @@ a:hover {
 .width100 {
   width: 100%; }
 
+.overflow-hidden {
+  overflow: hidden; }
+
 .darkblue {
   color: #0089c8; }
 
