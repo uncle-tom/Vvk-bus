@@ -9810,13 +9810,12 @@ i {
 
 .wemedal__img {
   display: grid;
-  grid-template-columns: repeat(2, 48%);
+  grid-template-columns: repeat(2, 49%);
   grid-gap: 0px 20px; }
 .wemedal img {
   width: 100%; }
-  .wemedal img:nth-child(2) {
-    position: relative;
-    top: -20px; }
+  .wemedal img :nth-child(2) {
+    width: 84%; }
 .wemedal__bg {
   position: relative;
   padding: 20px 0px; }
