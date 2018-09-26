@@ -98,7 +98,7 @@ Template Name: О нас
 				<div class="col-md-6">
 					<div class="wemedal__img">
 						<img src="/wp-content/uploads/2018/09/vvkbus-gramota.png" alt="">
-						<img src="/wp-content/uploads/2018/09/orden.png" alt="">	
+						<img src="/wp-content/uploads/2018/09/orden1.png" alt="">	
 					</div>
 				</div>
 				<div class="col-md-6">
