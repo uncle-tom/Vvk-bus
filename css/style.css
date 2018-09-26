@@ -10477,6 +10477,8 @@ i {
     .arenda__zakaz-img img {
       width: 90%;
       border: 4px solid #0089c8;
+      border-radius: 8px;
+      box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.47);
       z-index: 1; }
   .arenda__zakaz-bg {
     height: 100%;
