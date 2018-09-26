@@ -11,10 +11,10 @@
 	</div>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-5">
+			<div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 				<img src="/wp-content/uploads/2018/09/orden.png" alt="">
 			</div>
-			<div class="col-md-7 about__infoblock">
+			<div class="col-md-7 about__infoblock" data-aos="fade-up">
 				<div class="about__line1"></div>
 				<div class="about__line2"></div>
 				<div class="about__line3"></div>
