@@ -94,7 +94,6 @@ Template Name: Аренда
 					<div class="col-md-4">
 						<div class="arenda__zakaz-img">
 							<a href="/wp-content/uploads/2018/09/bus-man-img1.jpg" data-lightbox="image-2" data-title="Title1"><img src="/wp-content/uploads/2018/08/DPP_0018-300x200.jpg" alt=""></a>
-							<div class="arenda__zakaz-bg"></div>
 						</div>
 					</div>
 					<div class="col-md-8">
