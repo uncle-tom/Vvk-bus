@@ -10270,6 +10270,8 @@ i {
     .buses .bus__images img {
       width: 100%;
       height: 200px;
+      border: 4px solid #0089c8;
+      border-radius: 8px;
       -o-object-fit: cover;
       object-fit: cover; }
   .buses .bus__title {
