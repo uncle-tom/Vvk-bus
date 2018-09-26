@@ -24,7 +24,7 @@ Template Name: Маршруты
 </div>
 
 <!-- begin alldirections -->
-<div class="alldirections py-5">
+<div class="alldirections overflow-hidden py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

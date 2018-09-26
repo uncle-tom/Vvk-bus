@@ -18,10 +18,11 @@ Template Name: Order
 	</div>
 </div>
 
-<div class="container py-5">
-	<!-- begin directions-columns -->
-		<?php get_template_part( 'blocks/directions-columns', 'default' ); ?>
-	<!-- end directions-columns -->
+<div class="overflow-hidden">
+	<div class="container py-5">
+		<!-- begin directions-columns -->
+			<?php get_template_part( 'blocks/directions-columns', 'default' ); ?>
+		<!-- end directions-columns -->
+	</div>
 </div>
-
 <?php get_footer(); ?>

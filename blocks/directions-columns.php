@@ -1,4 +1,4 @@
-<div class="row directions overflow-hidden">
+<div class="row directions">
 	<div class="col-md-6">
 		<div class="direction" data-aos="fade-right">
 			<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
