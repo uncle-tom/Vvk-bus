@@ -9814,8 +9814,8 @@ i {
   grid-gap: 0px 15px; }
 .wemedal img {
   width: 100%; }
-  .wemedal img:nth-child(2n) {
-    width: 84%; }
+.wemedal a:nth-child(2n) img {
+  width: 84%; }
 .wemedal__bg {
   position: relative;
   padding: 20px 0px; }
