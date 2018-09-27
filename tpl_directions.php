@@ -15,7 +15,7 @@ Template Name: Маршруты
 </div>
 <!-- end topdirection -->
 
-<div class="container">
+<div class="container pc-show">
 	<div class="row">
 		<!-- begin dir-lines -->
 			<?php get_template_part( 'blocks/dir-lines', 'default' ); ?>
