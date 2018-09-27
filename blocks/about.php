@@ -11,7 +11,7 @@
 	</div>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			<div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
 				<img src="/wp-content/uploads/2018/09/orden.png" alt="">
 			</div>
 			<div class="col-md-7 about__infoblock" data-aos="fade-up">
