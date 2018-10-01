@@ -25,7 +25,7 @@
 				<div class="direction" data-aos="fade-right">
 					<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
 						<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы из города <?php echo rwmb_meta( 'meta-dir-from' ); ?></div>
-						<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
+						<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>
 					</div>
 					
 					<?php 
@@ -60,7 +60,7 @@
 				<div class="direction" data-aos="fade-left">
 					<div class="direction__th d-flex justify-content-between align-items-center mobile-show p-3">
 						<div class="font-weight-bold"><i class="fas fa-bus"></i> Рейсы из города <?php echo rwmb_meta( 'meta-dir-to' ); ?></div>
-						<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>	
+						<div class="font-weight-bold"><i class="far fa-money-bill-alt"></i> Цена</div>
 					</div>
 					<?php 
 					$dir_to = rwmb_meta( 'meta-dir-to' );
@@ -84,11 +84,11 @@
 				    		<?php echo rwmb_meta( 'meta-price' ); ?> <?php echo rwmb_meta( 'meta-dir-valuta' ); ?>
 				    	</div>
 			    	</div>
-			    </div>
-		    <?php 
-		  		endwhile; endif; 
-		    	wp_reset_query();
-		    ?>
+			    <?php 
+			  		endwhile; endif; 
+			    	wp_reset_query();
+			    ?>
+			  </div>
 			</div>
 		</div>
 		<?php endwhile; else: ?>
