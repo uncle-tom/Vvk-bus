@@ -45,7 +45,7 @@ Template Name: Новости
 	<div class="container">
 		<div class="row">
 			<?php
-				$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'offset'=> 1, 'posts_per_page' => -1 ) );
+				$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 199, 'offset'=> 2 ) );
 				if( $custom_query_news->have_posts() ){
 					while( $custom_query_news->have_posts() ){ $custom_query_news->the_post();
 			?>
