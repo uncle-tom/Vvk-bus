@@ -32,7 +32,7 @@
 				<div class="news__category">
 					<?php echo the_category() ?>	
 				</div>
-				<div class="news__title">
+				<div class="news__title px-3">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				</div>
 			</div>
