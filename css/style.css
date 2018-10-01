@@ -10089,16 +10089,27 @@ i {
 
 .dirlines {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   text-align: center;
   opacity: 0.6;
   cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s; }
   .dirlines:hover {
     opacity: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s; }
     .dirlines:hover .dirline {
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
       transition: all 0.4s; }
       .dirlines:hover .dirline:before {
         left: 0px;
@@ -10108,16 +10119,52 @@ i {
         border: 1px solid #A2ABF0; }
       .dirlines:hover .dirline__name {
         top: -25px;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
         transition: all 0.4s; }
+      .dirlines:hover .dirline__bus {
+        opacity: 1;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
+        -webkit-animation-name: bus_opacity;
+        animation-name: bus_opacity;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
+        -webkit-transform: scale(-1, 1) translateX(-30px);
+        -ms-transform: scale(-1, 1) translateX(-30px);
+        transform: scale(-1, 1) translateX(-30px); }
 
 .red:hover .dirline:before, .red:hover .dirline:after {
   border: 1px solid #FC114C; }
 
+.yellow .dirline__bus {
+  width: 30px;
+  top: -10px;
+  -webkit-transform: scale(-1, 1) translateX(10px);
+  -ms-transform: scale(-1, 1) translateX(10px);
+  transform: scale(-1, 1) translateX(10px); }
+
 .yellow:hover .dirline:before, .yellow:hover .dirline:after {
   border: 1px solid #FE9F3C; }
+.yellow:hover .dirline__bus {
+  -webkit-transform: scale(-1, 1) translateX(-10px);
+  -ms-transform: scale(-1, 1) translateX(-10px);
+  transform: scale(-1, 1) translateX(-10px); }
 
 .green:hover .dirline:before, .green:hover .dirline:after {
   border: 1px solid #188959; }
+.green:hover .dirline__bus {
+  -webkit-transform: scale(-1, 1) translateX(0px);
+  -ms-transform: scale(-1, 1) translateX(0px);
+  transform: scale(-1, 1) translateX(0px); }
+
+.green .dirline__bus {
+  width: 25px;
+  top: -7px;
+  -webkit-transform: scale(-1, 1) translateX(30px);
+  -ms-transform: scale(-1, 1) translateX(30px);
+  transform: scale(-1, 1) translateX(30px); }
 
 .dirline {
   width: 100%;
@@ -10147,6 +10194,8 @@ i {
     top: 50%;
     left: 1px;
     border: 1px dashed #A2ABF0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
   .dirline:after {
     content: '';
@@ -10155,6 +10204,8 @@ i {
     top: 50%;
     right: 1px;
     border: 1px dashed #A2ABF0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
   .dirline__name {
     height: 24px;
@@ -10163,6 +10214,8 @@ i {
     top: -20px;
     text-align: center;
     padding: 0px 5px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s; }
   .dirline__circle {
     width: 12px;
@@ -10173,12 +10226,34 @@ i {
     bottom: 0;
     left: 0;
     right: 0;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 2px solid #444442;
     background-color: white;
     z-index: 2;
     margin: auto; }
+  .dirline__bus {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    -webkit-transform: scale(-1, 1) translateX(0px);
+    -ms-transform: scale(-1, 1) translateX(0px);
+    transform: scale(-1, 1) translateX(0px);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s; }
 
+@-webkit-keyframes bus_opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes bus_opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 .buses .bus {
   position: relative;
   padding: 60px 0px;
