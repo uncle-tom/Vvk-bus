@@ -21,7 +21,7 @@
   	Наши новости
   </div>
   <?php 
-  $custom_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 5 ) );
+  $custom_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 3 ) );
   if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
   	<div class="news__item">
   		<div class="news__img">
