@@ -53,7 +53,7 @@
 	    					<div><i class="fab fa-instagram mr-2"></i></div>
 								<div>
 									<span class="">instagram: </span>
-									<a href="<?php echo get_option('instagram_link') ?>">
+									<a href="<?php echo get_option('instagram_link') ?>" target="_blank">
 										 @vvk_bus
 									</a>		
 								</div>
@@ -84,7 +84,7 @@
     				<div class="copyright__text">
     					© 2018 Копирование информации с сайта запрещено	
     				</div>
-    				<div class="copyright__wemodern">Разработано командой <a href="https://wemodern.com">WeModern</a></div>
+    				<div class="copyright__wemodern">Разработано командой <a href="https://wemodern.com" target="_blank">WeModern</a></div>
     			</div>
     		</div>
     	</div>

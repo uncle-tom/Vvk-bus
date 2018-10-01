@@ -31,7 +31,7 @@
 						<div class="rightside d-flex align-items-center">
 							<i class="fab fa-instagram mr-2"></i>
 							<span class="pr-2">instagram: </span>
-							<a href="<?php echo get_option('instagram_link') ?>">
+							<a href="<?php echo get_option('instagram_link') ?>" target="_blank">
 								@vvk_bus
 							</a>
 						</div>
