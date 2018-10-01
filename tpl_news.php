@@ -45,12 +45,12 @@ Template Name: Новости
 	<div class="container">
 		<div class="row">
 			<?php
-				$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'offset'=> 1 ) );
+				$custom_query_news = new WP_Query( array( 'post_type' => 'post', 'offset'=> 1, 'posts_per_page' => -1 ) );
 				if( $custom_query_news->have_posts() ){
 					while( $custom_query_news->have_posts() ){ $custom_query_news->the_post();
 			?>
 				<div class="col-md-6">
-					<div class="news__item">
+					<div class="news__item mb-5">
 						<div class="news__img">
 							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title(); ?>">
 							<div class="news__img-absolute"></div>
