@@ -69,7 +69,7 @@ Template Name: О нас
 				</div>
 			</div>
 			<div class="offset-md-1 col-md-4">
-				<img src="/wp-content/uploads/2018/09/wecool.jpg" alt="" class="mb-5 width100">
+				<a href="/wp-content/uploads/2018/09/man-img1.jpg"><img src="/wp-content/uploads/2018/09/man-img1.jpg" alt="" class="shadow-img mb-5 width100"></a>
 				<div class="d-flex justify-content-center">
 					<a href="viber://chat?number=+380674725997"><div class="my-btn btn-blue"><span>задать вопрос в viber</span></div></a>
 				</div>
