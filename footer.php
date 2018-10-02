@@ -8,8 +8,18 @@
 	    				<h3><span>Направления</span></h3>
 	    				<div class="footer__directions">
 		    				<?php 
-						    $custom_query = new WP_Query( array( 'post_type' => 'directions' ) );
-						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+    						    $custom_query = new WP_Query( array( 
+                                    'post_type' => 'directions', 
+                                    'posts_per_page' => 3, 
+                                    'meta_query' => array(
+                                        array(
+                                            'key'     => 'meta-dir-popular',
+                                            'value'   => 1,
+                                            'compare' => '=',
+                                        ),
+                                    )
+                                ));
+                                if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 						    	<a href="<?php the_permalink(); ?>" class="footer__direction"><?php the_title(); ?></a>
 						    <?php endwhile; endif; ?>
 					    </div>
