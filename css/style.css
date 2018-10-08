@@ -9150,6 +9150,9 @@ label, input, textarea {
   font-weight: 300;
   line-height: 40px; }
 
+#app input[type=checkbox] {
+  width: auto; }
+
 .topheader {
   height: 30px;
   background-color: #7ecee8;
