@@ -13,6 +13,8 @@
 
 		wp_head();
 	?>
+	<link rel="stylesheet" href="https://octobus.cloud/frameapp/css/app.css" media="all">
+  <link rel="stylesheet" href="https://octobus.cloud/frameapp/print.css" media="print">
 </head>
 <body <?php echo body_class(); ?>>
 	<header>

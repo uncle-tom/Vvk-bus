@@ -116,5 +116,9 @@
         </div>
       </div>
     </div>
+    <!-- следующие три строчки можно оставить здесь, но лучше разместить в конце блока body перед финальным тегом </body> -->
+    <script src="https://octobus.cloud/frameapp/js/manifest.js"></script>
+    <script src="https://octobus.cloud/frameapp/js/vendor.js"></script>
+    <script src="https://octobus.cloud/frameapp/js/app.js"></script>
 </body>
 </html>
